@@ -57,6 +57,8 @@ sudo systemctl restart ollama
 
 # Monitor GPU usage for LLM
 watch -n 0.5 nvidia-smi
+
+```
 ## Troubleshooting & Lessons Learned
 - **Ollama IP binding:** Had to set to 0.0.0.0 for network accessibility
 - **Assist Device:** Must select "Larry" in Home Assistant dropdown
