@@ -5,7 +5,7 @@
 ---
 
 ## Overview
-Larry is a fully local AI-powered voice assistant. Unlike cloud-based assistants like Alexa, everything runs locally, ensuring privacy and full control over your smart home. Larry can understand spoken commands, generate responses via a local LLM (LLaMA 3.2), and execute smart home actions — all without sending data to the cloud.
+Larry is a fully local AI-powered voice assistant. Unlike cloud-based assistants like Alexa, everything runs locally, ensuring privacy and full control over your smart home. Larry can understand spoken commands, generate responses via a local LLM (LLaMA 3.2), and execute smart home actions all without sending data to the cloud.
 
 This project demonstrates distributed system integration, real-time audio processing, and AI orchestration on local devices.
 
@@ -34,8 +34,7 @@ This distributed setup allows audio capture, transcription, response generation,
 
 ## Audio Pipeline
 [Mic Array] --> [Whisper Docker] --> [Ollama LLM] --> [Piper TTS] --> [USB Speaker]
-| ^
-+---> Home Assistant commands ------+
+---> Home Assistant commands ------+
 
 ---
 
