@@ -5,7 +5,7 @@
 ---
 
 ## Overview
-Larry is a fully local AI-powered voice assistant. Unlike cloud-based assistants like Alexa, everything runs locally, ensuring privacy and full control over your smart home. Larry can understand spoken commands, generate responses via a local LLM (LLaMA 3.2), and execute smart home actions all without sending data to the cloud.
+Larry is a fully local AI-powered voice assistant. Unlike cloud-based assistants like Alexa, everything runs locally, ensuring privacy and full control over your smart home. Larry can understand spoken commands, generate responses via a local LLM (Gemma 3 27b quantized), and execute smart home actions all without sending data to the cloud.
 
 This project demonstrates distributed system integration, real-time audio processing, and AI orchestration on local devices.
 
@@ -26,7 +26,7 @@ This project demonstrates distributed system integration, real-time audio proces
   - Ollama integration as conversation agent  
 - **Whisper** running in Docker on a separate Linux server  
 - **Piper** for text-to-speech on Raspberry Pi  
-- **Ollama** serving **LLaMA 3.2** locally  
+- **Ollama** serving **Gemma 3 27b quantized** locally  
 
 This distributed setup allows audio capture, transcription, response generation, and playback entirely on local devices.
 
@@ -65,7 +65,7 @@ watch -n 0.5 nvidia-smi
 
 ## Skills & Technologies
 - **Languages & Tools:** Python, Docker, Bash, YAML, Linux
-- **AI & ML:** Whisper (speech-to-text), Piper (TTS), Ollama (LLM, LLaMA 3.2)
+- **AI & ML:** Whisper (speech-to-text), Piper (TTS), Ollama (LLM, Gemma 3 27b quantized)
 - **Smart Home & IoT:** Home Assistant, custom wake words, mic array integration
 - **Networking & Systems:** Distributed systems, Docker networking, GPU monitoring
 
