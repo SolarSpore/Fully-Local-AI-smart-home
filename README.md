@@ -34,7 +34,6 @@ This distributed setup allows audio capture, transcription, response generation,
 
 ## Audio Pipeline
 [Mic Array] --> [Whisper Docker] --> [Ollama LLM] --> [Piper TTS] --> [USB Speaker]
----> Home Assistant commands ------+
 
 ---
 
