@@ -1,6 +1,7 @@
 # Fully-Local AI Smart Home Assistant – "Larry"
 
 > A fully local AI voice assistant integrating Home Assistant, Whisper, Piper, and Ollama, built on a Raspberry Pi and Linux server to control smart home devices while ensuring complete privacy.
+---
 Note: This repository intentionally omits network topology, IP addresses, secrets, and exact configuration files. It documents design decisions and system integration only.
 ---
 
